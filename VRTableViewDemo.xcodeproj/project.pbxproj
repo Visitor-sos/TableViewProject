@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31BF4BAA1CFEE6CA009FC245 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BF4BA91CFEE6CA009FC245 /* main.m */; };
+		31BF4BB31CFEE6CA009FC245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31BF4BB11CFEE6CA009FC245 /* Main.storyboard */; };
+		31BF4BB51CFEE6CA009FC245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BF4BB41CFEE6CA009FC245 /* Assets.xcassets */; };
+		31BF4BB81CFEE6CA009FC245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31BF4BB61CFEE6CA009FC245 /* LaunchScreen.storyboard */; };
+		31BF4BC31CFEE6CB009FC245 /* VRTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BF4BC21CFEE6CB009FC245 /* VRTableViewDemoTests.m */; };
+		31BF4BCE1CFEE6CB009FC245 /* VRTableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BF4BCD1CFEE6CB009FC245 /* VRTableViewDemoUITests.m */; };
+		31BF4BE71CFEE74A009FC245 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BF4BDE1CFEE74A009FC245 /* AppDelegate.m */; };
+		31BF4BE81CFEE74A009FC245 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BF4BE01CFEE74A009FC245 /* ViewController.m */; };
+		31BF4BF71CFEE9F9009FC245 /* indexcircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 31BF4BF31CFEE9F9009FC245 /* indexcircle.png */; };
+		31BF4BF81CFEE9F9009FC245 /* indexcloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 31BF4BF41CFEE9F9009FC245 /* indexcloud.png */; };
+		31BF4BF91CFEE9F9009FC245 /* indexdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 31BF4BF51CFEE9F9009FC245 /* indexdown.png */; };
+		31BF4BFA1CFEE9F9009FC245 /* indexleft.png in Resources */ = {isa = PBXBuildFile; fileRef = 31BF4BF61CFEE9F9009FC245 /* indexleft.png */; };
+		31BF4C071CFEEB11009FC245 /* VRInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BF4BFE1CFEEB11009FC245 /* VRInterceptor.m */; };
+		31BF4C081CFEEB11009FC245 /* VRCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BF4C021CFEEB11009FC245 /* VRCell.m */; };
+		31BF4C091CFEEB11009FC245 /* VRTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BF4C061CFEEB11009FC245 /* VRTableView.m */; };
+		31BF4C0C1CFEEB3C009FC245 /* VRSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BF4C0B1CFEEB3C009FC245 /* VRSlideView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31BF4BBF1CFEE6CB009FC245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31BF4B9D1CFEE6CA009FC245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31BF4BA41CFEE6CA009FC245;
+			remoteInfo = VRTableViewDemo;
+		};
+		31BF4BCA1CFEE6CB009FC245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31BF4B9D1CFEE6CA009FC245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31BF4BA41CFEE6CA009FC245;
+			remoteInfo = VRTableViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31BF4BA51CFEE6CA009FC245 /* VRTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BF4BA91CFEE6CA009FC245 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31BF4BB21CFEE6CA009FC245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31BF4BB41CFEE6CA009FC245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31BF4BB71CFEE6CA009FC245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31BF4BB91CFEE6CA009FC245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31BF4BBE1CFEE6CB009FC245 /* VRTableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRTableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BF4BC21CFEE6CB009FC245 /* VRTableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRTableViewDemoTests.m; sourceTree = "<group>"; };
+		31BF4BC41CFEE6CB009FC245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31BF4BC91CFEE6CB009FC245 /* VRTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BF4BCD1CFEE6CB009FC245 /* VRTableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRTableViewDemoUITests.m; sourceTree = "<group>"; };
+		31BF4BCF1CFEE6CB009FC245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31BF4BDD1CFEE74A009FC245 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31BF4BDE1CFEE74A009FC245 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31BF4BDF1CFEE74A009FC245 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31BF4BE01CFEE74A009FC245 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31BF4BF31CFEE9F9009FC245 /* indexcircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indexcircle.png; sourceTree = "<group>"; };
+		31BF4BF41CFEE9F9009FC245 /* indexcloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indexcloud.png; sourceTree = "<group>"; };
+		31BF4BF51CFEE9F9009FC245 /* indexdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indexdown.png; sourceTree = "<group>"; };
+		31BF4BF61CFEE9F9009FC245 /* indexleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indexleft.png; sourceTree = "<group>"; };
+		31BF4BFD1CFEEB11009FC245 /* VRInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRInterceptor.h; sourceTree = "<group>"; };
+		31BF4BFE1CFEEB11009FC245 /* VRInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRInterceptor.m; sourceTree = "<group>"; };
+		31BF4C011CFEEB11009FC245 /* VRCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRCell.h; sourceTree = "<group>"; };
+		31BF4C021CFEEB11009FC245 /* VRCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRCell.m; sourceTree = "<group>"; };
+		31BF4C051CFEEB11009FC245 /* VRTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRTableView.h; sourceTree = "<group>"; };
+		31BF4C061CFEEB11009FC245 /* VRTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRTableView.m; sourceTree = "<group>"; };
+		31BF4C0A1CFEEB3C009FC245 /* VRSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRSlideView.h; sourceTree = "<group>"; };
+		31BF4C0B1CFEEB3C009FC245 /* VRSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRSlideView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31BF4BA21CFEE6CA009FC245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BF4BBB1CFEE6CB009FC245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BF4BC61CFEE6CB009FC245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31BF4B9C1CFEE6CA009FC245 = {
+			isa = PBXGroup;
+			children = (
+				31BF4BA71CFEE6CA009FC245 /* VRTableViewDemo */,
+				31BF4BC11CFEE6CB009FC245 /* VRTableViewDemoTests */,
+				31BF4BCC1CFEE6CB009FC245 /* VRTableViewDemoUITests */,
+				31BF4BA61CFEE6CA009FC245 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31BF4BA61CFEE6CA009FC245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31BF4BA51CFEE6CA009FC245 /* VRTableViewDemo.app */,
+				31BF4BBE1CFEE6CB009FC245 /* VRTableViewDemoTests.xctest */,
+				31BF4BC91CFEE6CB009FC245 /* VRTableViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31BF4BA71CFEE6CA009FC245 /* VRTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				31BF4BDB1CFEE74A009FC245 /* Classes */,
+				31BF4BA81CFEE6CA009FC245 /* Supporting Files */,
+			);
+			path = VRTableViewDemo;
+			sourceTree = "<group>";
+		};
+		31BF4BA81CFEE6CA009FC245 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31BF4BB11CFEE6CA009FC245 /* Main.storyboard */,
+				31BF4BB41CFEE6CA009FC245 /* Assets.xcassets */,
+				31BF4BB61CFEE6CA009FC245 /* LaunchScreen.storyboard */,
+				31BF4BB91CFEE6CA009FC245 /* Info.plist */,
+				31BF4BA91CFEE6CA009FC245 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31BF4BC11CFEE6CB009FC245 /* VRTableViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				31BF4BC21CFEE6CB009FC245 /* VRTableViewDemoTests.m */,
+				31BF4BC41CFEE6CB009FC245 /* Info.plist */,
+			);
+			path = VRTableViewDemoTests;
+			sourceTree = "<group>";
+		};
+		31BF4BCC1CFEE6CB009FC245 /* VRTableViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31BF4BCD1CFEE6CB009FC245 /* VRTableViewDemoUITests.m */,
+				31BF4BCF1CFEE6CB009FC245 /* Info.plist */,
+			);
+			path = VRTableViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		31BF4BDB1CFEE74A009FC245 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				31BF4BF21CFEE9BE009FC245 /* Pic */,
+				31BF4BDC1CFEE74A009FC245 /* Root */,
+				31BF4BE11CFEE74A009FC245 /* Template */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		31BF4BDC1CFEE74A009FC245 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				31BF4BDD1CFEE74A009FC245 /* AppDelegate.h */,
+				31BF4BDE1CFEE74A009FC245 /* AppDelegate.m */,
+				31BF4BDF1CFEE74A009FC245 /* ViewController.h */,
+				31BF4BE01CFEE74A009FC245 /* ViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		31BF4BE11CFEE74A009FC245 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				31BF4BFB1CFEEB11009FC245 /* Function */,
+				31BF4BFF1CFEEB11009FC245 /* Model */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		31BF4BF21CFEE9BE009FC245 /* Pic */ = {
+			isa = PBXGroup;
+			children = (
+				31BF4BF31CFEE9F9009FC245 /* indexcircle.png */,
+				31BF4BF41CFEE9F9009FC245 /* indexcloud.png */,
+				31BF4BF51CFEE9F9009FC245 /* indexdown.png */,
+				31BF4BF61CFEE9F9009FC245 /* indexleft.png */,
+			);
+			path = Pic;
+			sourceTree = "<group>";
+		};
+		31BF4BFB1CFEEB11009FC245 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				31BF4BFC1CFEEB11009FC245 /* VRInterceptor */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		31BF4BFC1CFEEB11009FC245 /* VRInterceptor */ = {
+			isa = PBXGroup;
+			children = (
+				31BF4BFD1CFEEB11009FC245 /* VRInterceptor.h */,
+				31BF4BFE1CFEEB11009FC245 /* VRInterceptor.m */,
+			);
+			path = VRInterceptor;
+			sourceTree = "<group>";
+		};
+		31BF4BFF1CFEEB11009FC245 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31BF4C001CFEEB11009FC245 /* VRCell */,
+				31BF4C031CFEEB11009FC245 /* VRSlideView */,
+				31BF4C041CFEEB11009FC245 /* VRTableView */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		31BF4C001CFEEB11009FC245 /* VRCell */ = {
+			isa = PBXGroup;
+			children = (
+				31BF4C011CFEEB11009FC245 /* VRCell.h */,
+				31BF4C021CFEEB11009FC245 /* VRCell.m */,
+			);
+			path = VRCell;
+			sourceTree = "<group>";
+		};
+		31BF4C031CFEEB11009FC245 /* VRSlideView */ = {
+			isa = PBXGroup;
+			children = (
+				31BF4C0A1CFEEB3C009FC245 /* VRSlideView.h */,
+				31BF4C0B1CFEEB3C009FC245 /* VRSlideView.m */,
+			);
+			path = VRSlideView;
+			sourceTree = "<group>";
+		};
+		31BF4C041CFEEB11009FC245 /* VRTableView */ = {
+			isa = PBXGroup;
+			children = (
+				31BF4C051CFEEB11009FC245 /* VRTableView.h */,
+				31BF4C061CFEEB11009FC245 /* VRTableView.m */,
+			);
+			path = VRTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31BF4BA41CFEE6CA009FC245 /* VRTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BF4BD21CFEE6CB009FC245 /* Build configuration list for PBXNativeTarget "VRTableViewDemo" */;
+			buildPhases = (
+				31BF4BA11CFEE6CA009FC245 /* Sources */,
+				31BF4BA21CFEE6CA009FC245 /* Frameworks */,
+				31BF4BA31CFEE6CA009FC245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRTableViewDemo;
+			productName = VRTableViewDemo;
+			productReference = 31BF4BA51CFEE6CA009FC245 /* VRTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31BF4BBD1CFEE6CB009FC245 /* VRTableViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BF4BD51CFEE6CB009FC245 /* Build configuration list for PBXNativeTarget "VRTableViewDemoTests" */;
+			buildPhases = (
+				31BF4BBA1CFEE6CB009FC245 /* Sources */,
+				31BF4BBB1CFEE6CB009FC245 /* Frameworks */,
+				31BF4BBC1CFEE6CB009FC245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31BF4BC01CFEE6CB009FC245 /* PBXTargetDependency */,
+			);
+			name = VRTableViewDemoTests;
+			productName = VRTableViewDemoTests;
+			productReference = 31BF4BBE1CFEE6CB009FC245 /* VRTableViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31BF4BC81CFEE6CB009FC245 /* VRTableViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BF4BD81CFEE6CB009FC245 /* Build configuration list for PBXNativeTarget "VRTableViewDemoUITests" */;
+			buildPhases = (
+				31BF4BC51CFEE6CB009FC245 /* Sources */,
+				31BF4BC61CFEE6CB009FC245 /* Frameworks */,
+				31BF4BC71CFEE6CB009FC245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31BF4BCB1CFEE6CB009FC245 /* PBXTargetDependency */,
+			);
+			name = VRTableViewDemoUITests;
+			productName = VRTableViewDemoUITests;
+			productReference = 31BF4BC91CFEE6CB009FC245 /* VRTableViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31BF4B9D1CFEE6CA009FC245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Visitor;
+				TargetAttributes = {
+					31BF4BA41CFEE6CA009FC245 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					31BF4BBD1CFEE6CB009FC245 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 31BF4BA41CFEE6CA009FC245;
+					};
+					31BF4BC81CFEE6CB009FC245 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 31BF4BA41CFEE6CA009FC245;
+					};
+				};
+			};
+			buildConfigurationList = 31BF4BA01CFEE6CA009FC245 /* Build configuration list for PBXProject "VRTableViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31BF4B9C1CFEE6CA009FC245;
+			productRefGroup = 31BF4BA61CFEE6CA009FC245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31BF4BA41CFEE6CA009FC245 /* VRTableViewDemo */,
+				31BF4BBD1CFEE6CB009FC245 /* VRTableViewDemoTests */,
+				31BF4BC81CFEE6CB009FC245 /* VRTableViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31BF4BA31CFEE6CA009FC245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BF4BF91CFEE9F9009FC245 /* indexdown.png in Resources */,
+				31BF4BF71CFEE9F9009FC245 /* indexcircle.png in Resources */,
+				31BF4BF81CFEE9F9009FC245 /* indexcloud.png in Resources */,
+				31BF4BB81CFEE6CA009FC245 /* LaunchScreen.storyboard in Resources */,
+				31BF4BB51CFEE6CA009FC245 /* Assets.xcassets in Resources */,
+				31BF4BFA1CFEE9F9009FC245 /* indexleft.png in Resources */,
+				31BF4BB31CFEE6CA009FC245 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BF4BBC1CFEE6CB009FC245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BF4BC71CFEE6CB009FC245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31BF4BA11CFEE6CA009FC245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BF4BE81CFEE74A009FC245 /* ViewController.m in Sources */,
+				31BF4C0C1CFEEB3C009FC245 /* VRSlideView.m in Sources */,
+				31BF4C071CFEEB11009FC245 /* VRInterceptor.m in Sources */,
+				31BF4BE71CFEE74A009FC245 /* AppDelegate.m in Sources */,
+				31BF4C081CFEEB11009FC245 /* VRCell.m in Sources */,
+				31BF4BAA1CFEE6CA009FC245 /* main.m in Sources */,
+				31BF4C091CFEEB11009FC245 /* VRTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BF4BBA1CFEE6CB009FC245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BF4BC31CFEE6CB009FC245 /* VRTableViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BF4BC51CFEE6CB009FC245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BF4BCE1CFEE6CB009FC245 /* VRTableViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31BF4BC01CFEE6CB009FC245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31BF4BA41CFEE6CA009FC245 /* VRTableViewDemo */;
+			targetProxy = 31BF4BBF1CFEE6CB009FC245 /* PBXContainerItemProxy */;
+		};
+		31BF4BCB1CFEE6CB009FC245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31BF4BA41CFEE6CA009FC245 /* VRTableViewDemo */;
+			targetProxy = 31BF4BCA1CFEE6CB009FC245 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31BF4BB11CFEE6CA009FC245 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31BF4BB21CFEE6CA009FC245 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31BF4BB61CFEE6CA009FC245 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31BF4BB71CFEE6CA009FC245 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31BF4BD01CFEE6CB009FC245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31BF4BD11CFEE6CB009FC245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31BF4BD31CFEE6CB009FC245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VRTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Visitor.VRTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31BF4BD41CFEE6CB009FC245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VRTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Visitor.VRTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31BF4BD61CFEE6CB009FC245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VRTableViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Visitor.VRTableViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRTableViewDemo.app/VRTableViewDemo";
+			};
+			name = Debug;
+		};
+		31BF4BD71CFEE6CB009FC245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VRTableViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Visitor.VRTableViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRTableViewDemo.app/VRTableViewDemo";
+			};
+			name = Release;
+		};
+		31BF4BD91CFEE6CB009FC245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VRTableViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Visitor.VRTableViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VRTableViewDemo;
+			};
+			name = Debug;
+		};
+		31BF4BDA1CFEE6CB009FC245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VRTableViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Visitor.VRTableViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VRTableViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31BF4BA01CFEE6CA009FC245 /* Build configuration list for PBXProject "VRTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BF4BD01CFEE6CB009FC245 /* Debug */,
+				31BF4BD11CFEE6CB009FC245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31BF4BD21CFEE6CB009FC245 /* Build configuration list for PBXNativeTarget "VRTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BF4BD31CFEE6CB009FC245 /* Debug */,
+				31BF4BD41CFEE6CB009FC245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31BF4BD51CFEE6CB009FC245 /* Build configuration list for PBXNativeTarget "VRTableViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BF4BD61CFEE6CB009FC245 /* Debug */,
+				31BF4BD71CFEE6CB009FC245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31BF4BD81CFEE6CB009FC245 /* Build configuration list for PBXNativeTarget "VRTableViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BF4BD91CFEE6CB009FC245 /* Debug */,
+				31BF4BDA1CFEE6CB009FC245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31BF4B9D1CFEE6CA009FC245 /* Project object */;
+}
